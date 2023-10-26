@@ -1,0 +1,45 @@
+body {
+    background-color: #565656; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c90a0a;
+    color: #050202;
+    text-align: center;
+    padding: 20px;
+    width: 1200px;
+    margin-left: 0%;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.Verstappen {
+margin-top: 100px;
+color: white;
+margin-bottom: 50px;
+
+}
+
+.Alonso {
+    margin-top: 100px;
+    color: white;
+margin-bottom: 50px;
+;
+}
+
+@media (max-width: 600px) {
+    .container  {
+        grid-template-columns: 1fr;
+    }
+
+}
